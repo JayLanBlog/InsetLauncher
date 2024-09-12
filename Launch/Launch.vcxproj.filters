@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="lauch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="config">
+      <UniqueIdentifier>{12bae473-25bd-49d7-9347-1d64f92153e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config\Marker.h">
+      <Filter>config</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="shd">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src\entry">
+      <UniqueIdentifier>{65e61fc8-2c64-4e73-98a1-434c142a437a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hook">
+      <UniqueIdentifier>{77d56e98-9453-4e41-8245-7b6f0e52faa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\driver">
+      <UniqueIdentifier>{0775692a-cd4d-4433-a0d4-7c7a09f64222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{0c44e4c5-9123-4992-bdd4-ebdef0537f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\driver\gl">
+      <UniqueIdentifier>{a1fd6417-55dd-4997-a2d1-46e5fe3bb91a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\driver\gl\wrappers">
+      <UniqueIdentifier>{f9aa7827-1397-4a11-941f-a90355b66e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\driver\gl\official">
+      <UniqueIdentifier>{96e6bba7-cbe1-4013-96d8-509ed5e949dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\driver\gl\table">
+      <UniqueIdentifier>{27481db9-f3dd-42a3-be16-c49ebe9023b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sysos">
+      <UniqueIdentifier>{30912163-6f23-4fa1-88b5-dec9025c748f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>shd</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>shd</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="entry\g_extern_loading.h">
+      <Filter>src\entry</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\hooks.h">
+      <Filter>src\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="common\thread.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\string_util.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="sysos\sys_os_define.h">
+      <Filter>src\sysos</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\official\cgl.h">
+      <Filter>src\driver\gl\official</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\official\egl.h">
+      <Filter>src\driver\gl\official</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\official\eglext.h">
+      <Filter>src\driver\gl\official</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\official\eglplatform.h">
+      <Filter>src\driver\gl\official</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\official\gl3platform.h">
+      <Filter>src\driver\gl\official</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\official\gl32.h">
+      <Filter>src\driver\gl\official</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\official\glcorearb.h">
+      <Filter>src\driver\gl\official</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\official\glesext.h">
+      <Filter>src\driver\gl\official</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\official\glext.h">
+      <Filter>src\driver\gl\official</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\official\glxext.h">
+      <Filter>src\driver\gl\official</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\official\khrplatform.h">
+      <Filter>src\driver\gl\official</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\official\legacygl.h">
+      <Filter>src\driver\gl\official</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\official\wglext.h">
+      <Filter>src\driver\gl\official</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\table\win_gl_dispatch_table.h">
+      <Filter>src\driver\gl\table</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\gl_common.h">
+      <Filter>src\driver\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\gl_driver.h">
+      <Filter>src\driver\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\gl\table\gl_dispatch_table.h">
+      <Filter>src\driver\gl\table</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="entry\g_extern_loading.cpp">
+      <Filter>src\entry</Filter>
+    </ClCompile>
+    <ClCompile Include="common\string_util.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\hooks.cpp">
+      <Filter>src\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="sysos\win_os_process.cpp">
+      <Filter>src\sysos</Filter>
+    </ClCompile>
+    <ClCompile Include="sysos\win_os_thread.cpp">
+      <Filter>src\sysos</Filter>
+    </ClCompile>
+    <ClCompile Include="sysos\win_os_hooks.cpp">
+      <Filter>src\sysos</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\gl\win_gl_hooks.cpp">
+      <Filter>src\driver\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\gl\gl_hooks.cpp">
+      <Filter>src\driver\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\gl\gl_common.cpp">
+      <Filter>src\driver\gl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
